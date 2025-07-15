@@ -1,6 +1,6 @@
-def great():
-    import time as t
+import time as t
 
+def great():
     name = input("What's your name? ").strip()
     hour = int(t.strftime("%H"))
 
@@ -10,3 +10,6 @@ def great():
         print(f"Good afternoon {name}")
     else:
         print(f"Good evening {name}")
+
+if __name__ == '__main__':
+    great()-
